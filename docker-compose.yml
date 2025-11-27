@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: logistics_db
+    ports:
+      - "5432:5432"
+
+  mongodb:
+    image: mongo:5.0
+    ports:
+      - "27017:27017"

@@ -1,2 +1,6 @@
 .env
 Gestion_Logistique/
+*.log
+delivery_risk_model/
+start_pipeline.sh
+stop_pipeline.sh
